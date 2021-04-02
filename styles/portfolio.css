@@ -13,37 +13,34 @@ h1 {
 h2 {
   font-size: 25px;
 }
-h3 {
-  font-size: 35px;
-}
 .hero {
   background: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
   /*
-    purples
-    background: linear-gradient(
-      109.6deg,
-      rgba(79, 148, 243, 0.73) 11.2%,
-      rgba(140, 105, 193, 0.87) 91.2%
+  purples
+  background: linear-gradient(
+    109.6deg,
+    rgba(79, 148, 243, 0.73) 11.2%,
+    rgba(140, 105, 193, 0.87) 91.2%
     );
     radiating green to blue from top left corner
     background: radial-gradient(
       circle at 10% 20%,
       rgb(0, 255, 176) 0%,
       rgb(66, 105, 242) 90%
-    );
-    horiontal blue and green
-    ppblbg
-   
-    greens
-    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
-    yorppb
-  background: linear-gradient(
-    96.2deg,
-    rgb(255, 230, 112) 10.4%,
-    rgb(255, 100, 100) 43.8%,
-    rgb(0, 93, 219) 105.8%
-  );
-  */
+      );
+      horiontal blue and green
+      ppblbg
+      
+      greens
+      background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+      yorppb
+      background: linear-gradient(
+        96.2deg,
+        rgb(255, 230, 112) 10.4%,
+        rgb(255, 100, 100) 43.8%,
+        rgb(0, 93, 219) 105.8%
+        );
+        */
 }
 .navigation-links {
   display: flex;
@@ -60,26 +57,38 @@ h3 {
   font-size: 40px;
   margin: 20px 0 20px 20px;
 }
+.row {
+  margin: 0;
+}
 .weather-app {
   background-color: #ebebeb;
-  padding: 25px 0;
+  padding: 25px 25px;
   margin: 0 60px;
+  transition: 0.5s;
+}
+.weather-app:hover {
+  background-color: #cecece;
 }
 .weather-app-link {
   text-decoration: none;
   color: black;
   text-align: center;
   margin-top: 1px;
+  transition: 0.5s;
 }
 .weather-app-link:hover {
   text-decoration: none;
   color: black;
+  padding: 20px 0;
 }
 .weather-app-img {
   display: block;
   margin: 0 auto;
   max-width: 60%;
   height: auto;
+}
+.title {
+  font-size: 35px;
 }
 .description {
   font-size: 20px;
