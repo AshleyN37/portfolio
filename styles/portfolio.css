@@ -9,9 +9,16 @@ h2 {
 h1 {
   font-size: 100px;
   padding-top: 75px;
+  font-family: "Playfair Display", serif;
 }
 h2 {
   font-size: 25px;
+}
+h2,
+a,
+p,
+h3 {
+  font-family: "Lato", sans-serif;
 }
 .hero {
   background: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
