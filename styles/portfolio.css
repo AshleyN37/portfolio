@@ -8,7 +8,6 @@ h2 {
 }
 h1 {
   font-size: 100px;
-  padding-top: 100px;
   font-family: "Playfair Display", serif;
 }
 h2 {
@@ -19,6 +18,9 @@ a,
 p,
 h3 {
   font-family: "Lato", sans-serif;
+}
+.hero h1 {
+  padding-top: 100px;
 }
 .hero {
   background: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
@@ -69,8 +71,20 @@ h3 {
 }
 .weather-app {
   background-color: #ebebeb;
-  padding: 25px 25px;
   margin: 0 60px;
+  padding: 25px 25px;
+  transition: 0.5s;
+}
+.blue {
+  background-color: lightblue;
+  padding: 25px 25px;
+  margin-left: 60px;
+  transition: 0.5s;
+}
+.green {
+  background-color: lightgreen;
+  padding: 25px 25px;
+  margin-right: 60px;
   transition: 0.5s;
 }
 .weather-app:hover {
