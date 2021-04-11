@@ -65,6 +65,13 @@ footer {
   border: 1px solid black;
   margin: 30px 0 150px 0;
 }
+.contact-link-work {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333333;
+  border: 1px solid black;
+  margin: 30px 0 0 0;
+}
 .projects-header {
   font-size: 40px;
   margin: 20px 0 20px 20px;
@@ -144,10 +151,18 @@ footer {
 .about-sub-heading {
   margin-bottom: 30px;
 }
-
+.contact-header {
+  margin-bottom: 30px;
+}
+.links {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
 footer {
   background: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-  margin-top: 10px;
+  margin-top: 75px;
   text-align: center;
   font-size: 25px;
   padding: 100px 0;
