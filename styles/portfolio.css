@@ -17,7 +17,8 @@ h2 {
 h2,
 a,
 p,
-h3 {
+h3,
+footer {
   font-family: "Lato", sans-serif;
 }
 .hero h1 {
@@ -52,6 +53,7 @@ h3 {
         );
         */
 }
+
 .navigation-links {
   display: flex;
   justify-content: center;
@@ -77,16 +79,22 @@ h3 {
   transition: 0.5s;
 }
 .blue {
-  background-color: lightblue;
+  background-color: #9fc8e1;
   padding: 25px 25px;
   margin-left: 60px;
   transition: 0.5s;
 }
 .green {
-  background-color: lightgreen;
+  background-color: #6df1cd;
   padding: 25px 25px;
   margin-right: 60px;
   transition: 0.5s;
+}
+.blue:hover {
+  background-color: #72afd3;
+}
+.green:hover {
+  background-color: #37ecba;
 }
 .weather-app:hover {
   background-color: #cecece;
@@ -135,4 +143,22 @@ h3 {
 }
 .about-sub-heading {
   margin-bottom: 30px;
+}
+
+footer {
+  background: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  padding: 100px 0;
+}
+footer a {
+  color: #333333;
+}
+footer .social-links {
+  margin-top: 30px;
+  font-size: 50px;
+}
+footer .social-links a {
+  margin: 0 20px;
 }
